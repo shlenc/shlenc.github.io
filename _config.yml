@@ -108,7 +108,7 @@ formspree-key:   https://formspree.io/f/mblaebze
 colors:
   text: "#f7fbfa"
   border: "#e0f2ef"
-  link: "#40b3a2"
+  link: "#darkgrey"
   highlight: "#0c0cf2"
   background: "#2c3333"
   light_background: "darkgray"
