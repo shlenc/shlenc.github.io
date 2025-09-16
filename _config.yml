@@ -57,16 +57,20 @@ skills:
     - Software-In-The-Loop
     - Simulation Testing & Development
     - Systems Engineering
+  - category: Robotics
+    tools:
+    - ROS2
+    - Gazebo
+    - ArduPilot
+    - PX4
+    - SLAM
+    - YOLO
   - category: Software
     tools:
     - C/C++
     - Python
     - MATLAB/Simulink
     - Git & GitHub
-    - ROS2
-    - Gazebo
-    - ArduPilot
-    - PX4
     - PyTorch
     - TensorFlow
     - Lua  
@@ -107,7 +111,7 @@ colors:
   link: "#40b3a2"
   highlight: "#0c0cf2"
   background: "#2c3333"
-  light_background: "#2a9d8f"
+  light_background: "darkgray"
 
 # A few examples. 
 basic theme:
