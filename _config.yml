@@ -111,7 +111,7 @@ colors:
   link: "#darkgrey"
   highlight: "#0c0cf2"
   background: "#2c3333"
-  light_background: "darkgray"
+  light_background: "#4a76ee"
 
 # A few examples. 
 basic theme:
