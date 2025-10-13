@@ -1,9 +1,13 @@
 ---
 layout: post
-title: project title
-description:  short description of the project
+title: Quadcopter Swarm Guidance, Navigation, & Control Simulation
+description:  In order to test & develop autopilot code for a quadcopter drone swarm, a Software-In-The-Loop (SITL) Linux environment was built using ROS2 architecture, Python framework, Gazebo physics engine, and MAVProxy.
 skills: 
-- skill 1
-- skill 2
-main-image: /project.webp 
+- GN&C Algorithms
+- SITL Testing
+- Linux Development
+- C/C++
+- Python
+- ROS2
+main-image: /swarm_gazebo.png
 ---
