@@ -11,3 +11,12 @@ skills:
 - ROS2
 main-image: /swarm_gazebo.png
 ---
+
+## Gazebo Sim
+{% include image-gallery.html images="gazebo_sim.png" height="1000" %}
+
+## Simulating the Swarm Network
+{% include image-gallery.html images="network_simulation.png" height="1000" %}
+
+## Linux Developer Environment
+{% include image-gallery.html images="developer_view.png" height="1000" %}
