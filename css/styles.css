@@ -467,7 +467,7 @@ nav .mobile-nav {
 
 .contact-section .group form input, .contact-section .group form textarea {
     font-family: 'Poppins', sans-serif;
-    background-color: transparent;
+    background-color: #41fadb;
     border: 1px groove var(--text-color);
     padding:5px;
     margin-bottom: 10px;
