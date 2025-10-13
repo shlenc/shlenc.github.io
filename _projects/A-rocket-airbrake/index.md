@@ -17,7 +17,7 @@ main-image: /rocket_airbrake_main.png
 ---
 
 ## Airbrake Deployment Mechanism
-images="airbrake_mechanism.png"
+{% include image-gallery.html images="airbrake_mechanism.png" %}
 
 ## CFD Analysis
 
