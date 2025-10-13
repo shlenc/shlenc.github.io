@@ -51,52 +51,37 @@ skills:
     tools:
     - Guidance, Navigation, & Control
     - Software Development
-    - Autonomous Systems
     - Embedded systems
-    - Hardware-In-The-Loop
-    - Software-In-The-Loop
-    - Simulation Testing & Development
+    - Robotics
+    - HIL/SIL Testing & Integration
     - Systems Engineering
-  - category: Robotics
-    tools:
-    - ROS2
-    - Gazebo
-    - ArduPilot
-    - PX4
-    - SLAM
-    - YOLO
-  - category: Software
+  - category: Programming & Robotics
     tools:
     - C/C++
     - Python
     - MATLAB/Simulink
-    - Git & GitHub
-    - PyTorch
-    - TensorFlow
+    - Git
     - Lua  
-  - category: Design & Modeling
-    tools:
-    - Altium
-    - SolidWorks
-    - Ansys
-    - OpenRocket
-    - Abaqus
-    - KiCad
-  - category: Prototyping
-    tools:
+    - ROS2
+    - ArduPilot
     - Multimeter & Oscilloscope
     - Electrical Soldering
     - 3D Printing
-    - Laser Cutting
-    - CNC Machining
-    - Waterjet
-    - Welding
+  - category: Design & Simulation
+    tools:
+    - Altium Designer
+    - SolidWorks
+    - Ansys Fluent & Ansys Mechanical
+    - OpenRocket
+    - Gazebo
+    - XFLR5
+    - Abaqus
+    - KiCad
   - category: Interpersonal & Problem Resolving
     tools:
-    - Transformational & Servant Leadership
+    - Leadership & Teamwork
     - Resource & Project Management
-    - Multidisciplinary Communication
-    - Risk & Mitigation Analysis
+    - Interdisciplinary Communication
 
 
 # Contact Form Setup. Setup an account and copy over the key. When someone fills out the form, it will be received in your email.
