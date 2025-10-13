@@ -23,3 +23,4 @@ main-image: /rocket_airbrake_main.png
 {% include image-gallery.html images="cfd_analysis.png" height="1000" %}
 
 ## Structural Integrity FEA
+{% include image-gallery.html images="fea_analysis.png" height="1000" %}
