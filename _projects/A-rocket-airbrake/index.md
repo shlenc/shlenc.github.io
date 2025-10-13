@@ -15,3 +15,9 @@ skills:
 
 main-image: /rocket_airbrake_main.png
 ---
+
+## Airbrake Deployment Mechanism
+
+## CFD Analysis
+
+## Structural Integrity FEA
