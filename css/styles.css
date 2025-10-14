@@ -2,7 +2,7 @@
 ---
 
 :root {
-  --text-color: {{ site.colors.text }};
+  --text-color: white;
   --border-color: {{ site.colors.border }};
   --link-color: {{ site.colors.link }};
   --highlight-color: {{ site.colors.highlight }};
