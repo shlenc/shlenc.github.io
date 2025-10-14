@@ -38,12 +38,12 @@ The first prototype serves only as a development board, so a few functions were 
 Alot still needs to be done with this project for it to be able to control a real quadcopter.
 
 
-### Next Steps
+## Next Steps
 
-1. Optimize for cost, size, and cross-talk
-2. Generate manufacturing requirements & documents (tooling holes, silkscreen, gerber files, CPL files, and BOM)
-3. Order and assemble board (solder components  if necessary)
-4. Flash firmware, map pins, set-up testing environment
-5. Run through Hardware-In-The-Loop simulation tests
-6. Extend functionality to an in-flight board
-7. Optimize towards the final production board
+### 1. Optimize for cost, size, and cross-talk
+### 2. Generate manufacturing requirements & documents (tooling holes, silkscreen, gerber files, CPL files, and BOM)
+### 3. Order and assemble board (solder components  if necessary)
+### 4. Flash firmware, map pins, set-up testing environment
+### 5. Run through Hardware-In-The-Loop simulation tests
+### 6. Extend functionality to an in-flight board
+### 7. Optimize towards the final production board

@@ -619,7 +619,7 @@ footer p {
 }
   
 .post-view .summary .skill {
-    background-color: var(--light-background-color);
+    background-color: #202A44;
     color: var(--link-color);
     border-radius: 12px;
     padding: 5px 10px;
