@@ -303,8 +303,8 @@ nav .mobile-nav {
     box-sizing: border-box;
     padding: 15px;
     background: var(--background-color);
-    box-shadow: 0 4px 6px -1px #99ecf400, 
-                0 2px 4px -1px #99ecf400;
+    box-shadow: 0 4px 6px -1px #bffbffff, 
+                0 2px 4px -1px #bffbffff;
     border-radius: 8px;
     border: 1px solid rgba(0, 0, 0, 0.05);
     transition: all 0.3s ease;
@@ -345,7 +345,7 @@ nav .mobile-nav {
     padding: 0 6px;
     border-radius: 10px;
     font-size: 0.9em;
-    background-color: var(--light-background-color);
+    background-color: #202A44;
     color: var(--link-color);
     white-space: nowrap; 
 }
