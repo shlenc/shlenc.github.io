@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Project | Engineering Portfolio</title>
+  <link rel="stylesheet" href="../styles.css" />
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container">
+      <nav class="navbar" aria-label="Primary">
+        <a class="brand" href="../index.html">
+          <span class="brand-badge" aria-hidden="true"></span>
+          <span>Engineering Portfolio</span>
+        </a>
+
+        <div class="nav-links">
+          <a href="../index.html">About</a>
+          <a class="active" href="../projects.html">Projects</a>
+          <a href="../resume.html">Resume</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <div id="project-detail" data-project-id="project-2">
+      <!-- Filled by scripts/projects.js -->
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <span>© <span id="year"></span> Your Name</span>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+  <script src="../scripts/projects.js" defer></script>
+</body>
+</html>
