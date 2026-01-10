@@ -2,130 +2,71 @@
 <html lang="en">
 <head>
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Samuel Lenc | Resume</title>
-  <link rel="stylesheet" href="styles.css" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Resume • Samuel GN&C Portfolio</title>
+  <meta name="description" content="Resume page with PDF download." />
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="css/styles.css" />
 </head>
 <body>
-
-  <header class="site-header">
-    <div class="container">
-      <nav class="navbar" aria-label="Primary">
-        <a class="brand" href="index.html">
-          <span class="brand-badge" aria-hidden="true"></span>
-          <span>Samuel Lenc</span>
-        </a>
-
-        <div class="nav-links">
-          <a href="index.html">About</a>
-          <a href="projects.html">Projects</a>
-          <a class="active" href="resume.html">Resume</a>
-        </div>
+<a class="skip-link" href="#content">Skip to content</a>
+<header class="site-header">
+  <div class="container">
+    <div class="navbar">
+      <a class="brand" href="index.html">
+        <span class="mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24">
+            <path fill="currentColor" d="M12 2l8 18h-3l-1.6-3.8H8.6L7 20H4l8-18Zm0 6.4L9.7 13h4.6L12 8.4Z"/>
+          </svg>
+        </span>
+        <span class="name">
+          <span>Samuel — GN&C Portfolio</span>
+          <small>Aerospace Engineering • Guidance • Navigation • Controls</small>
+        </span>
+      </a>
+      <nav class="navlinks" aria-label="Primary navigation">
+        <a data-nav href="index.html">About</a>
+        <a data-nav href="projects.html">Projects</a>
+        <a data-nav href="resume.html">Resume</a>
       </nav>
     </div>
-  </header>
+  </div>
+</header>
 
-  <main class="container">
-    <div class="page-title">
-      <h1>Resume</h1>
-      <div class="actions">
-        <a class="btn primary" href="assets/YourName_Resume.pdf" download>Download PDF</a>
+<main id="content">
+  <div class="container">
+
+    <section class="hero" style="padding:1.6rem;">
+      <h1 style="margin-bottom:0.6rem;">Resume</h1>
+      <p class="muted" style="margin:0;">
+        Replace <code>assets/resume.pdf</code> with your real resume. This page embeds the PDF and also offers a direct download.
+      </p>
+      <div class="btnrow" style="margin-top:1rem;">
+        <a id="downloadBtn" class="btn primary" href="assets/resume.pdf" download>Download PDF</a>
+        <a class="btn" href="projects.html">Back to Projects</a>
       </div>
-    </div>
-
-    <section class="resume">
-      <!-- Left column -->
-      <div class="card">
-        <div class="section">
-          <h2>Experience</h2>
-
-          <div class="item">
-            <div class="item-title">
-              <span>Job Title — Company</span>
-              <span class="item-sub">2023 – Present</span>
-            </div>
-            <div class="item-sub">City, State</div>
-            <ul class="bullets">
-              <li>Impact-focused bullet: what you built, measured results, scale.</li>
-              <li>Technical bullet: algorithms, tools, architecture.</li>
-              <li>Collaboration bullet: stakeholders, reviews, cross-functional.</li>
-            </ul>
-          </div>
-
-          <div class="item">
-            <div class="item-title">
-              <span>Job Title — Company</span>
-              <span class="item-sub">2021 – 2023</span>
-            </div>
-            <div class="item-sub">City, State</div>
-            <ul class="bullets">
-              <li>Example bullet describing scope and results.</li>
-              <li>Example bullet describing technical contributions.</li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="section">
-          <h2>Education</h2>
-          <div class="item">
-            <div class="item-title">
-              <span>Degree — University</span>
-              <span class="item-sub">2017 – 2021</span>
-            </div>
-            <div class="item-sub">Relevant coursework, honors, GPA (optional)</div>
-          </div>
-        </div>
-      </div>
-
-      <!-- Right column -->
-      <aside class="card">
-        <div class="section">
-          <h2>Skills</h2>
-          <p class="muted">
-            Languages, tools, and technical areas.
-          </p>
-          <div class="pills">
-            <span class="pill">Python</span>
-            <span class="pill">C++</span>
-            <span class="pill">MATLAB</span>
-            <span class="pill">Git</span>
-            <span class="pill">Linux</span>
-            <span class="pill">Control Systems</span>
-            <span class="pill">Estimation</span>
-          </div>
-        </div>
-
-        <div class="section">
-          <h2>Summary</h2>
-          <ul class="bullets">
-            <li>1–2 lines per highlight: awards, publications, certifications.</li>
-            <li>Use numbers when you can (latency, accuracy, cost, etc.).</li>
-          </ul>
-        </div>
-
-        <div class="section">
-          <h2>Contact</h2>
-          <p class="muted" style="margin-bottom: 6px;">samuellenc@gmail.com</p>
-          <p class="muted" style="margin-bottom: 6px;">971-268-4954</p>
-          <p class="muted" style="margin-bottom: 0;">Seattle, WA</p>
-
-          <div class="actions" style="margin-top: 12px;">
-            <a class="btn" href="https://github.com/shlenc" aria-label="GitHub">GitHub</a>
-            <a class="btn" href="https://www.linkedin.com/in/samuel-lenc" aria-label="LinkedIn">LinkedIn</a>
-          </div>
-        </div>
-      </aside>
     </section>
-  </main>
 
-  <footer class="footer">
-    <div class="container">
-      <span>© <span id="year"></span> Samuel Lenc</span>
+    <section class="section">
+      <div class="card" style="overflow:hidden;">
+        <iframe title="Resume PDF" src="assets/resume.pdf" style="width:100%; height:78vh; border:0;"></iframe>
+      </div>
+      <p class="muted" style="margin-top:0.8rem;">If the PDF doesn't render in your browser, use the download button above.</p>
+    </section>
+
+  </div>
+</main>
+
+<footer>
+  <div class="container">
+    <div class="row">
+      <span>© <span id="year"></span> Samuel • Built as a static site</span>
+      <span class="muted">Theme: crow black • midnight blue • burgundy</span>
     </div>
-  </footer>
+  </div>
+</footer>
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
 
-  <script>
-    document.getElementById("year").textContent = new Date().getFullYear();
-  </script>
+<script type="module" src="js/resume-page.js"></script>
 </body>
 </html>

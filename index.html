@@ -2,84 +2,130 @@
 <html lang="en">
 <head>
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Samuel Lenc</title>
-  <link rel="stylesheet" href="styles.css" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>About • Samuel GN&C Portfolio</title>
+  <meta name="description" content="Aerospace GN&C engineering portfolio — projects, simulations, and controls." />
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="css/styles.css" />
 </head>
 <body>
-
-  <header class="site-header">
-    <div class="container">
-      <nav class="navbar" aria-label="Primary">
-        <a class="brand" href="index.html">
-          <span>Samuel Lenc</span>
-        </a>
-
-        <div class="nav-links">
-          <a class="active" href="index.html">About</a>
-          <a href="projects.html">Projects</a>
-          <a href="resume.html">Resume</a>
-        </div>
+<a class="skip-link" href="#content">Skip to content</a>
+<header class="site-header">
+  <div class="container">
+    <div class="navbar">
+      <a class="brand" href="index.html">
+        <span class="mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24">
+            <path fill="currentColor" d="M12 2l8 18h-3l-1.6-3.8H8.6L7 20H4l8-18Zm0 6.4L9.7 13h4.6L12 8.4Z"/>
+          </svg>
+        </span>
+        <span class="name">
+          <span>Samuel — GN&C Portfolio</span>
+          <small>Aerospace Engineering • Guidance • Navigation • Controls</small>
+        </span>
+      </a>
+      <nav class="navlinks" aria-label="Primary navigation">
+        <a data-nav href="index.html">About</a>
+        <a data-nav href="projects.html">Projects</a>
+        <a data-nav href="resume.html">Resume</a>
       </nav>
     </div>
-  </header>
+  </div>
+</header>
 
-  <main class="container">
+<main id="content">
+  <div class="container">
+
     <section class="hero">
-      <div class="card">
-        <div class="card-inner">
-          <p class="kicker">About</p>
-          <h1>Hi! My name is <span class="muted">Samuel Lenc</span></h1>
+      <div class="hero-grid">
+        <div>
+          <h1>Guidance, Navigation & Control projects — built with clarity and rigor.</h1>
           <p class="muted">
-            I'm an Aerospace Engineer and specialize in guidance, navigation, and control. This site is a showcase of a few of my projects.
+            This is a static portfolio site designed to showcase engineering work: simulations, estimators,
+            controllers, and flight-software adjacent projects.
           </p>
 
-          <div class="actions">
-            <a class="btn primary" href="projects.html">View Projects</a>
-            <a class="btn" href="resume.html">View Resume</a>
-          </div>
-        </div>
-      </div>
-
-      <aside class="card">
-        <div class="card-inner">
-          <p class="kicker">Quick Links</p>
-
-          <div class="actions">
-            <a class="btn" href="https://github.com/shlenc" aria-label="GitHub">GitHub</a>
-            <a class="btn" href="https://www.linkedin.com/in/samuel-lenc" aria-label="LinkedIn">linkedIn</a>
+          <div class="badges" aria-label="Key skills">
+            <span class="badge">Guidance laws</span>
+            <span class="badge">State estimation</span>
+            <span class="badge">Controls design</span>
+            <span class="badge">Simulation & Monte Carlo</span>
+            <span class="badge">C++ / Python</span>
           </div>
 
+          <div class="btnrow" style="margin-top:1.2rem;">
+            <a class="btn primary" href="projects.html">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path fill="currentColor" d="M13.2 5.2a1 1 0 0 1 1.4 0l6.2 6.2a1 1 0 0 1 0 1.4l-6.2 6.2a1 1 0 1 1-1.4-1.4L17.6 13H4a1 1 0 0 1 0-2h13.6l-4.4-4.4a1 1 0 0 1 0-1.4Z"/>
+              </svg>
+              View all projects
+            </a>
+            <a class="btn" href="resume.html">Resume</a>
+          </div>
         </div>
-      </aside>
+
+        <div class="card pad">
+          <h2 style="margin-top:0;">Site overview</h2>
+          <div class="kv">
+            <div class="row"><span class="label">About</span><span class="value">Intro + featured images</span></div>
+            <div class="row"><span class="label">Projects</span><span class="value">Auto-generated gallery</span></div>
+            <div class="row"><span class="label">Project pages</span><span class="value">Details via URL id</span></div>
+            <div class="row"><span class="label">Resume</span><span class="value">View + PDF download</span></div>
+          </div>
+          <hr class="sep" />
+          <p class="muted" style="margin:0;">
+            Edit your project entries in <code>js/projects-data.js</code> and the site updates everywhere.
+          </p>
+        </div>
+      </div>
     </section>
 
-    <section class="home-mosaic" aria-label="Project image highlights">
-      <div class="page-title">
-        <h2>Project Highlights</h2>
-        <p class="muted">A mix of hero shots and gallery visuals.</p>
+    <section class="section">
+      <div class="section-head">
+        <h2>Featured project previews</h2>
+        <p class="muted">A mix of hero and gallery images.</p>
       </div>
+      <div id="mosaic" class="mosaic" aria-label="Project image preview mosaic"></div>
+    </section>
 
-      <div class="mosaic-grid" id="home-mosaic">
-        <!-- Filled by scripts/projects.js -->
+    <section class="section">
+      <div class="section-head">
+        <h2>How to customize</h2>
+        <p class="muted">Quick start checklist.</p>
       </div>
-
-      <div class="actions" style="margin-top: 14px;">
-        <a class="btn primary" href="projects.html">Browse all projects</a>
+      <div class="grid two">
+        <div class="card pad">
+          <h3 style="margin-top:0;">1) Add your content</h3>
+          <ul class="list">
+            <li>Edit your name/tagline in the page header.</li>
+            <li>Update projects in <code>js/projects-data.js</code>.</li>
+            <li>Replace placeholder images in <code>assets/images/</code>.</li>
+          </ul>
+        </div>
+        <div class="card pad">
+          <h3 style="margin-top:0;">2) Deploy</h3>
+          <ul class="list">
+            <li>Preview locally (see note below).</li>
+            <li>Upload to GitHub Pages / Netlify / any static host.</li>
+            <li>Keep it static: no build tools required.</li>
+          </ul>
+        </div>
       </div>
     </section>
 
-    <script src="scripts/projects.js" defer></script>
-  </main>
+  </div>
+</main>
 
-  <footer class="footer">
-    <div class="container">
-      <span>© <span id="year"></span> Samuel Lenc</span>
+<footer>
+  <div class="container">
+    <div class="row">
+      <span>© <span id="year"></span> Samuel • Built as a static site</span>
+      <span class="muted">Theme: crow black • midnight blue • burgundy</span>
     </div>
-  </footer>
+  </div>
+</footer>
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
 
-  <script>
-    document.getElementById("year").textContent = new Date().getFullYear();
-  </script>
+<script type="module" src="js/about-page.js"></script>
 </body>
 </html>

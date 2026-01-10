@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Project • Samuel GN&C Portfolio</title>
+  <meta name="description" content="Project detail page." />
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+<a class="skip-link" href="#content">Skip to content</a>
+<header class="site-header">
+  <div class="container">
+    <div class="navbar">
+      <a class="brand" href="index.html">
+        <span class="mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24">
+            <path fill="currentColor" d="M12 2l8 18h-3l-1.6-3.8H8.6L7 20H4l8-18Zm0 6.4L9.7 13h4.6L12 8.4Z"/>
+          </svg>
+        </span>
+        <span class="name">
+          <span>Samuel — GN&C Portfolio</span>
+          <small>Aerospace Engineering • Guidance • Navigation • Controls</small>
+        </span>
+      </a>
+      <nav class="navlinks" aria-label="Primary navigation">
+        <a data-nav href="index.html">About</a>
+        <a data-nav href="projects.html">Projects</a>
+        <a data-nav href="resume.html">Resume</a>
+      </nav>
+    </div>
+  </div>
+</header>
+
+<main id="content">
+  <div class="container">
+
+    <div class="breadcrumb">
+      <a href="projects.html">Projects</a>
+      <span aria-hidden="true">›</span>
+      <span id="projectTitle">Project</span>
+    </div>
+
+    <section class="detail-hero">
+      <img id="projectHeroImg" src="assets/images/project1.png" alt="Project hero image">
+      <div class="inner">
+        <h1 id="projectTitle" style="margin:0 0 0.35rem;">Project title</h1>
+        <p id="projectSubtitle" class="muted" style="margin:0;">Project subtitle</p>
+        <div class="btnrow" id="linkRow"></div>
+      </div>
+    </section>
+
+    <section class="detail-grid">
+      <div class="card pad">
+        <h2 style="margin-top:0;">Summary</h2>
+        <p id="summaryText" class="muted"></p>
+
+        <hr class="sep" />
+
+        <h2>Problem</h2>
+        <p id="problemText" class="muted"></p>
+
+        <hr class="sep" />
+
+        <h2>Solution</h2>
+        <div id="solutionList"></div>
+
+        <hr class="sep" />
+
+        <h2>Results</h2>
+        <div id="resultsList"></div>
+
+        <hr class="sep" />
+
+        <h2>Gallery</h2>
+        <div id="gallery" class="gallery" aria-label="Project gallery images"></div>
+      </div>
+
+      <aside class="card pad">
+        <h2 style="margin-top:0;">Project info</h2>
+        <div class="kv">
+          <div class="row"><span class="label">Year</span><span class="value" id="projectYear"></span></div>
+          <div class="row"><span class="label">Role</span><span class="value" id="projectRole"></span></div>
+        </div>
+
+        <div style="margin-top:1rem;">
+          <div class="muted" style="font-size:0.9rem; margin-bottom:0.4rem;">Tags</div>
+          <div id="projectTags" class="meta"></div>
+        </div>
+
+        <div style="margin-top:1rem;">
+          <div class="muted" style="font-size:0.9rem; margin-bottom:0.4rem;">Tools</div>
+          <div id="toolsList"></div>
+        </div>
+      </aside>
+    </section>
+
+  </div>
+</main>
+
+<footer>
+  <div class="container">
+    <div class="row">
+      <span>© <span id="year"></span> Samuel • Built as a static site</span>
+      <span class="muted">Theme: crow black • midnight blue • burgundy</span>
+    </div>
+  </div>
+</footer>
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+
+<script type="module" src="js/project-detail.js"></script>
+</body>
+</html>
