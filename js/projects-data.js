@@ -1,11 +1,11 @@
 // Central project data (edit this to add/modify projects)
 export const PROJECTS = [
   {
-    id: "rkf-gnc-sim",
-    title: "Extended Kalman Filter for Rocket Navigation",
+    id: "rocket-gnc",
+    title: "Rocket Guidance, Navigation, & Control",
     subtitle: "Inertial navigation + sensor fusion in a Monte Carlo simulation",
-    year: "2026",
-    role: "GN&C / Simulation",
+    year: "2023=2024",
+    role: "Avionics & Airbrakes",
     tags: ["Navigation", "EKF", "Monte Carlo", "Python"],
     heroImage: "assets/images/project1.png",
     gallery: [
