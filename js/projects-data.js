@@ -4,7 +4,7 @@ export const PROJECTS = [
     id: "rocket-gnc",
     title: "Rocket Guidance, Navigation, & Control",
     subtitle: "Designing avionics and integrating aibrakes into a high-power model rocket for trajectory control",
-    year: "2023=2024",
+    year: "2023-2024",
     role: "Avionics & Airbrakes",
     tags: ["GN&C", "Avionics", "Rocket Dynamics", "Flight Controller", "System Identification"],
     heroImage: "assets/images/project1.png",
@@ -14,18 +14,18 @@ export const PROJECTS = [
       "assets/images/project3.png"
     ],
     summary:
-      ".",
+      "This project involved designing and integrating avionics with airbrake control as well as launch testing the rocket.",
     problem:
-      ".",
+      "The goal of this project was to launch test a high-power model rocket with data logging/processing and post flight analysis. The main constrained metric was the max apogee.",
     solutionBullets: [
-      ".",
-      ".",
-      "."
+      "In order to guide the trajectory of the high-power rocket to reach the target max apogee, airbrakes were implemented into the vehicle.",
+      "The airbrake deployment mechanism and on-board instrument housing units were 3D-printed utilizing SolidWorks 3D CAD and Ansys Mechanical.",
+      "The airbrake control system from the flight controller was developed with analysis from Ansys Fluent, MATLAB/Simulink, and OpenRocket.",
+      "ESP32 firmware was verified and validated through Hardware-In-the-Loop (HITL) tests."
     ],
     resultsBullets: [
-      ".",
-      ".",
-      "."
+      "Bench tests of the isolated avionics and airbrakes passed all functional requirements.",
+      "The rocket was successfully launched for 3 flights and the flight data showed reliable trajectory guidance to the target max apogee."
     ],
     tools: ["MATLAB", "Simulink", "C/C++", "Ansys Fluent", "Ansys Mechanical", "SolidWorks 3D CAD", "3D-Printing", "Soldering", "HITL"],
     links: { github: "#", report: "#" }
