@@ -73,18 +73,16 @@ export const PROJECTS = [
       "assets/images/project2.png"
     ],
     summary:
-      ".",
+      "In order to learn PCB development, this project focused on designing a custom PCB specifically for multirotor drones.",
     problem:
-      ".",
+      "Weight, size, vibration, ESD, cost, and power impacts performance of quadcopter drones, so the design of the PCB intented to optimize for these factors.",
     solutionBullets: [
-      ".",
-      ".",
-      "."
+      "An STM32F7 microcontroller was used for its high-processing speed, large memory, and internal protocols which provides better flight performance.",
+      "A single USB connector for power and data was used to allow easier modifiability and debugging."
     ],
     resultsBullets: [
-      ".",
-      ".",
-      "."
+      "The electrical schematic included all necessary microcontroller components, sensors, and power connections, but omitted radio and ESC functions.",
+      "A final development board was achieved, so a flight-ready board is still in progress."
     ],
     tools: ["Altium Designer", "STM32", "HITL", "PCBA"],
     links: { github: "#", report: "#" }
