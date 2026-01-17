@@ -12,8 +12,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
   const tiles = [
     { cls: "tile hero1", project: p1, img: p1.heroImage, label: p1.title, sub: p1.subtitle },
-    { cls: "tile gal1",  project: p2, img: (p2.gallery?.[0] || p2.heroImage), label: p2.title, sub: p2.subtitle },
-    { cls: "tile gal2",  project: p3, img: (p3.gallery?.[1] || p3.heroImage), label: p3.title, sub: p3.subtitle },
+    // { cls: "tile gal1",  project: p2, img: (p2.gallery?.[0] || p2.heroImage), label: p2.title, sub: p2.subtitle },
+    // { cls: "tile gal2",  project: p3, img: (p3.gallery?.[1] || p3.heroImage), label: p3.title, sub: p3.subtitle },
     { cls: "tile hero2", project: p2, img: p2.heroImage, label: p2.title, sub: p2.subtitle },
   ];
 
