@@ -44,18 +44,17 @@ export const PROJECTS = [
       "assets/images/project1.png"
     ],
     summary:
-      ".",
+      "For realiable testing and developing of flight software, a test environment was built-up to simulate the network of a quadcopter drone swarm.",
     problem:
-      ".",
+      "The goal of this project is to test and develop control algorithms for quadcopter swarms. Due to time and resource constraints, testing on real drones is not feasible. Therefore, a simulation environment was created.",
     solutionBullets: [
-      ".",
-      ".",
-      "."
+      "ROS2 was used to interface with Gazebo simulations and the mission interface. It enabled a method to troubleshoot issues with the behavior of the swarm or individual drones.",
+      "Gazebo's physics engine provided high-fidelity vehicle and environment dynamics of the swarm."
     ],
     resultsBullets: [
-      ".",
-      ".",
-      "."
+      "The simulation proved effective for testing and developing flight software.",
+      "A procedure was written to to efficiently use the test environment.",
+      "On-going progress for implementing failure modes into the simulation for fault tolerance."
     ],
     tools: ["C++", "ROS2", "Python", "Gazebo", "Linux", "Git"],
     links: { github: "#", report: "#" }
